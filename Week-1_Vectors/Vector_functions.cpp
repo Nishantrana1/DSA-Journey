@@ -17,8 +17,9 @@ hey.push_back(25);
 hey.push_back(35);
 hey.push_back(45);
 hey.push_back(55);
+hey.push_back(65);
 cout<<hey.size()<<endl;
-hey.pop_back();
+cout<<hey.capacity()<<endl;
 for (int val:hey){
     cout<<val<<" ";
 }
