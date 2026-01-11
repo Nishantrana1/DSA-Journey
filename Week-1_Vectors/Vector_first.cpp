@@ -1,20 +1,13 @@
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 using namespace std;
 
-int main() {
-    vector<int> v;   // declare vector
-
-    // insert elements
-    v.push_back(10);
-    v.push_back(20);
-    v.push_back(30);
-
-    // access elements
-    cout << "Elements: ";
-    for (int i = 0; i < v.size(); i++) {
-        cout << v[i] << " ";
-    }
-
-    return 0;
+int main(){
+    vector<int> fir={1,2,3,4,5};
+    cout<<fir[0]<<endl;
+    cout<<fir[2]<<endl;
+    cout<<fir[4]<<endl;
+    vector<int> sec(4,2);
+    for(int x:sec){
+    cout<<sec[x]<<" ";}
 }
