@@ -34,3 +34,18 @@ and we learn about the Staic and Dynamic memory alloaction in the Vectors
  capacity means how much can be inserted inside it 
 
  if the size==capacity and we want to insert a new element then we add normal way but capacity double its size;
+
+
+We Learn about the max sub array of a array 
+ 
+ a subarray is the possible out come of the array 
+
+ the total subarray formaula   = n*(n+1)/2
+ example if a array is {1,2,3,4,5} then its sub array is 
+ 1 12 123 1234 12345 
+ 2 23 234 2345 
+ 3 34 345 
+ 4 45 
+ 5
+
+ 
