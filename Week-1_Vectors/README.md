@@ -48,4 +48,6 @@ We Learn about the max sub array of a array
  4 45 
  5
 
+ we try give me Kadane's Algorithm 
+ i don't fully understand it right now but i start a bit understanding it
  
