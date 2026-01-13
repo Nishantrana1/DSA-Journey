@@ -58,4 +58,7 @@ We Learn about the max sub array of a array
  first it is used to find the maxsum of an subarray by 0(n) time complexity 
  insteed of using nested loop we use a single loop and use a condition that state that when sum of an subarray goes <0 then reset the currentsum 
  and try with next element don't include that past  elements
+
+
+ just solve the 3rd problem related to arrays and now moving towords the Strings
  
