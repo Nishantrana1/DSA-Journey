@@ -6,15 +6,19 @@ using namespace std;
 int main() {
     vector<int> arr = {-2, 1, -3, 4,5};
 
-    int currentSum = 0;
-    
+   
+    int maxsum=INT_MIN;
 
     for (int s = 0; s < arr.size(); s++) {
-        
-            currentSum += arr[s];
+         int currentSum = 0;
+        for(int end=s;end<arr.size();end++){
+            currentSum += arr[end];
+            maxsum=max(maxsum,currentSum);
+        }
+            
         
       
     }
 
-    cout << "Array Sum = " << currentSum;
+    cout << "max subArray Sum = " << maxsum;
 }
