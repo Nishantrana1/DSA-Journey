@@ -62,3 +62,5 @@ We Learn about the max sub array of a array
 
  just solve the 3rd problem related to arrays and now moving towords the Strings
  
+
+today we Learn about the pair sum and majority element that is a important step for slow updating.
