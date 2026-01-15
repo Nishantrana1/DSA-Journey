@@ -1,0 +1,1 @@
+this folder contain only about the strings.
