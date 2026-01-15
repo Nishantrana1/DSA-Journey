@@ -10,6 +10,11 @@ for(int val:nums){
     cout<<val<<" ";
 }
 cout<<endl;
+sort(nums.begin(),nums.end(), greater<int>());
+for(int elm:nums){
+    cout<<elm<<" ";
+}
+cout<<endl;
 }
 
 int main(){
