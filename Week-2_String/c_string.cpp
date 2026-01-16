@@ -4,9 +4,15 @@ using namespace std;
 
 
 int main(){
+    /*
     int a[]={1,2,3,4};
     char str[]={'a','b','c'};
     cout<<typeid(a).name()<<endl;
-    cout<<typeid(str).name()<<endl;
+    cout<<typeid(str).name()<<endl;*/
+
+    char str1[100];
+    cout<<"enter the string: "<<endl;
+    cin.getline(str1,100,'#');
+    cout<<str1<<endl;
     return 0;
 }
