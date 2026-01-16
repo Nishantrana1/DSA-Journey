@@ -10,9 +10,11 @@ int main(){
     cout<<typeid(a).name()<<endl;
     cout<<typeid(str).name()<<endl;*/
 
-    char str1[100];
-    cout<<"enter the string: "<<endl;
-    cin.getline(str1,100,'#');
-    cout<<str1<<endl;
+    char str1[]="Nishant";
+    int length=0;
+    for(int i=0;str1[i]!='\0';i++){
+        length++;
+    }
+    cout<<"the Length of string "<<length<<endl;
     return 0;
 }
