@@ -1,5 +1,5 @@
 this folder contain only about the strings.
-
+Day 1:-
 first we learnd about the character array 
 what is a character array
 just like normal array , character array is used to store the character in a array but these can be use as variable
@@ -27,4 +27,43 @@ now morst important part the String that requried #include <string>
 
 
 this is a baisc difference table between them.
+
+there are multiple funtion of it 
+and for input we use getline
+
+example.    getline(cin,string_name);
+
+
+Day 2:-
+ today we learn about the function of strings and solve a leetcode problem(344);
+
+ Funtions of strings are following:
+
+1.  s.size(); 
+    s.length(); // both used to find the size of string
+
+2.  s[i]
+    s.at[i] //use to access a character in string;
+
+3.  s3=s1+s2; // use to merge two string or we can say that cancatenation
+
+4. a.append(value); // insert charcter in the end of string.
+
+5. s.insert(postion,element); // insert character at a index value;
+
+6. s.clear() // use to clear the entire string.
+
+7. s.empty() // it check if the string is empty or not . 0=empty , 1=nonempty.
+
+8. s.erase(postion,lenght); // it remove multiple charcater from the postion we provide.
+
+9. s.pop_back(); // remove the last element of the character.
+
+10. s1.compare(s2); // it compare two strings 
+                    0= both are same, <0 means s1<s2, >0 means s1>s2.
+
+11. s.substring(postion,length); remember the last digit of lenght is not include if it end on a character which means it will not include.
+
+12. s.find("text") // used to find the text and it sill print the index value of it's first occurence.
+
 
