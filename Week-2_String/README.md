@@ -67,3 +67,7 @@ Day 2:-
 12. s.find("text") // used to find the text and it sill print the index value of it's first occurence.
 
 
+ in the day 2 end just solve leetcode problem(125) and learn about some code.
+ today i done chacking palandrome code.
+ 
+
