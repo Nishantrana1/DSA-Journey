@@ -75,3 +75,11 @@ Day 3
 just create a remove occurence code in which a big string is given and a small string is given we mush remove all the occurence from the big string and return what left behind.
 
 just solve a leetcode problem 1910
+and try to solve 217 number problem but failed due to time expiry , it need optimized code which require hashmaping (i don't know hahahaha);
+
+but i learn something creazy today
+
+there are some creazy datatype that used for specific purposes
+1. size_t n=s.size(); // it can store big value and index value and only postive value good for address, index, size etx
+2. auto n=10; //compiler mind it detect automatically what is best for this variable;
+3. string:npos; // don't kknow much about this but it's meaning is "not found"
