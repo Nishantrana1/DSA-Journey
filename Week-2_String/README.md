@@ -71,3 +71,7 @@ Day 2:-
  today i done chacking palandrome code.
  
 
+Day 3 
+just create a remove occurence code in which a big string is given and a small string is given we mush remove all the occurence from the big string and return what left behind.
+
+just solve a leetcode problem 1910
