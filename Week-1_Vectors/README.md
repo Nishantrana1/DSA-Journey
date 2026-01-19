@@ -72,7 +72,7 @@ the function i learn are following
 1. sort(v.begin(),v.end()); for ascending order    
 2. sort(v.begin(),v.end(),greater<int>()); descending order
 3. *max_element(v.begin(),v.end());  for finding the largest number from an array
-4. *max_element(v.begin(),v.end());  for finding the smallest number from the array
+4. *min_element(v.begin(),v.end());  for finding the smallest number from the array
 5. reverse(v.begin(),v.end()); for reverse the entire array
 6. bool found=binary_search(v.begin(),v.end()); for binary search
 
