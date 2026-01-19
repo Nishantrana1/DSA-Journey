@@ -13,5 +13,5 @@ int main(){
         cout<<*(it)<< " ";
     }
     
-    
+    cout<<d[2];
 }
