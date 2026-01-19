@@ -83,3 +83,9 @@ there are some creazy datatype that used for specific purposes
 1. size_t n=s.size(); // it can store big value and index value and only postive value good for address, index, size etx
 2. auto n=10; //compiler mind it detect automatically what is best for this variable;
 3. string:npos; // don't kknow much about this but it's meaning is "not found"
+
+
+Day 4 update.
+
+////
+
