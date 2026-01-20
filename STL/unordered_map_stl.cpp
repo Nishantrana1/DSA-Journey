@@ -11,6 +11,7 @@ int main(){
     m["Dryer"]=150;
     m["Heater"]=200;
     m.erase("tv");
+    
 for(auto p: m){
     cout<<p.first<<" "<<p.second<<endl;
 }

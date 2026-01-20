@@ -32,3 +32,23 @@ it is very good in every single peramerter
  allow random access
  only middle inserction takes time.
  
+
+ day 2 with Stl and today we learn about the map
+
+ what is map
+ map is a stl datatype that store data in a index based table where it store it's key and that keypoint to a value
+
+ like  map<string,int> m; in this string is key type and int is value type like  "phone" 100 
+
+ a simple map is sorted it's self which means all the items in the map arranged my character in alphabets
+ the  map only store one key for one value if same key appear again then it over write the existing value
+
+
+ second we study about the multimap that fix the overwrite problem.
+ it can store multiple same key values
+
+ 3rd we study about the unordered_map these are just like map but it store value as these are given 
+ it don't have inbuild sort method
+  so inserting a newelement take only O(1) because it just insert at the end of table 
+  but in case of map it take 0(logn) because it has natural sort so it add and then sort again soo
+  there is nothing we can dooo..............
