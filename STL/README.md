@@ -72,4 +72,15 @@ same as set but it is unordered which simply means it store value as it comes.
  and it is effective for insercting , serach and delection of element 
  it store elemnet in hash table.
  it take O(1) time for every action.
+
+these are some of the most common used function in Set
+insert()
+erase()
+find()
+count()
+lower_bound()
+upper_bound()
+size()
+empty()
+clear()
  
