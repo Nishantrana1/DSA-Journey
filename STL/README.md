@@ -52,3 +52,24 @@ it is very good in every single peramerter
   so inserting a newelement take only O(1) because it just insert at the end of table 
   but in case of map it take 0(logn) because it has natural sort so it add and then sort again soo
   there is nothing we can dooo..............
+
+
+
+  Day 3 guys
+
+today we learn about somethings 
+fist we learn about the Sets
+what is set ?
+set is container data structure that store only unique value, it has auto sorted propertly because i uses auto balance tree.
+set are imutable so you can't not change it's value.
+it take O(logn) for searching and inserting element due to it's sorting properties
+
+else everything is just like map all the fucntion are same as map.
+
+second we study about the unordered_set
+same as set but it is unordered which simply means it store value as it comes.
+ no sorting nature.
+ and it is effective for insercting , serach and delection of element 
+ it store elemnet in hash table.
+ it take O(1) time for every action.
+ 

@@ -8,6 +8,8 @@ int main(){
     m.insert(20);
     m.insert(30);
     m.insert(40);
+    cout<<*(m.lower_bound(25))<<endl;
+    cout<<"start"<<endl;
     set<int>::iterator it;
     for(it=m.begin();it != m.end();it++){
         cout<<*(it)<<endl;
