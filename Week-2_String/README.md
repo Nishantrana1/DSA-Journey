@@ -89,3 +89,10 @@ Day 4 update.
 
 ////
 
+day 4 complete with 1 dsa leetcode problem(151)
+
+in this problem i learn a lot of thing 
+first i learn about how we can use multiple loop and still key linear time complexty
+second we learn about how to reverse a string but the individual word is still same 
+example s="hello word"
+in reverse sting 
