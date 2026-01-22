@@ -98,3 +98,16 @@ example s="hello word"
 in reverse sting we get = "dorw olleh"
 but in this we get "word hello"
 
+how we achive this OK first we done is reverse the full sting 
+
+we get "dorw olleh"
+
+after that we run a loop until we get first space and store all the value in a new string
+
+new string = "dorw" after that we reverse this new string again 
+
+new string = "word"
+and at the end we add all this answer in a new string word by word
+
+but all this is happened in a single loop 
+but we use a nested loop inside this with same variable that main loop used
