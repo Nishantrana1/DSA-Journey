@@ -95,4 +95,6 @@ in this problem i learn a lot of thing
 first i learn about how we can use multiple loop and still key linear time complexty
 second we learn about how to reverse a string but the individual word is still same 
 example s="hello word"
-in reverse sting 
+in reverse sting we get = "dorw olleh"
+but in this we get "word hello"
+
