@@ -111,3 +111,24 @@ and at the end we add all this answer in a new string word by word
 
 but all this is happened in a single loop 
 but we use a nested loop inside this with same variable that main loop used
+
+
+day 5 update 
+today i solve problem (443)
+ 
+ this problem is string compression 
+ means we have to reduce a string in a way that it cover less space in memory
+
+ how can we do this there are multiple way to do this
+
+ first is 
+
+ if a character is repecting multiple time then we store that character and the number of time it is repeting
+
+ example  vector<char> chars={'a','a','a','b','b'};
+ in this a is 3 times and b is 2 time so we can write 
+
+ a 3 b 2  this 
+ so it is compressed form 
+
+ 
