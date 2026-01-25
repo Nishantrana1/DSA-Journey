@@ -1,5 +1,6 @@
 #include<iostream>
 #include<unordered_map>
+#include<string>
 using namespace std;
 
 class Solution {
@@ -22,3 +23,11 @@ public:
     }
 
 };
+
+int main(){
+
+    Solution obj;
+    string a="nishant";
+    string b= "pershant";
+    cout<<obj.isAnagram(a,b);
+}
