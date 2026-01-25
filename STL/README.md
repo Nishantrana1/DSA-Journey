@@ -84,3 +84,9 @@ size()
 empty()
 clear()
  
+
+
+ day 3
+  today isolve  prblem (242 )
+  in which i use unordered_map to store and compare elements
+  
