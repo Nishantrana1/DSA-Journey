@@ -1,5 +1,9 @@
 Day 1
 
+
+what is recursion>
+well in simple word when a fucntion call itsself directly or indirectly to perform task same as loop 
+
 to calculate the time complexity of recursion we need to do is 
 There are two ways
 
