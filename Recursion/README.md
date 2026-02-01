@@ -15,4 +15,6 @@ For the space complexity There are always two methods
 1. SC= depth of the Rec tree * mem in each cell
 2. SC= hight of the call stack * memory in each cell.
 
+Day 2 and today we study about the stack call that teaches how the stack call work in a recurstion function
+
 
