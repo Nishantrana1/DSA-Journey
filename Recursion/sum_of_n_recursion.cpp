@@ -14,6 +14,6 @@ int add(int n,int sum){
 int main(){
     int n=4;
     int sum=0;
-    add(n,sum);
-    cout<<sum;
+    cout<<add(n,sum);
+    
 }
