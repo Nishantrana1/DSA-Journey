@@ -2,18 +2,16 @@
 
 using namespace std;
 
-int add(int n,int sum){
+int add(int n){
     if(n==1){
-        sum=sum+1;
-        return sum;
+        return 1;
     }
-     sum = sum + n ;
-     return add(n-1,sum);
+     return n+add(n-1);
 } 
 
 int main(){
     int n=4;
     int sum=0;
-    cout<<add(n,sum);
+    cout<<add(n);
     
 }
