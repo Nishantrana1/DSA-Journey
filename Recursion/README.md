@@ -17,4 +17,6 @@ For the space complexity There are always two methods
 
 Day 2 and today we study about the stack call that teaches how the stack call work in a recurstion function
 
+Day 4
+today i learn about the fabonacci series of number and solve a leetcode question (509)
 
