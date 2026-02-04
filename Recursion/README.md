@@ -32,3 +32,13 @@ if(n==0||n==1){
 TC= number of call * work done in each call
 
 if n=4
+first pass the base case if(n==0||n==1)
+direct call to n=3 and n=2
+
+for n=3 to give call to n=2 and n=1
+
+and for n=2 it give call to n=1 and n=0
+
+ at end which hit base case that will return the case case n value and goes backtracking
+
+ it end with nth term value 
