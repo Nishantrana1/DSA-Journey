@@ -20,3 +20,15 @@ Day 2 and today we study about the stack call that teaches how the stack call wo
 Day 4
 today i learn about the fabonacci series of number and solve a leetcode question (509)
 
+if(n==0||n==1){
+        return n;
+    }
+    return fab(n-1)+fab(n-2);
+
+    we use this code for this
+
+    for calcuation the time complexity we use simple formula
+
+TC= number of call * work done in each call
+
+if n=4
