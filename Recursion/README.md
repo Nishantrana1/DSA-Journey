@@ -41,4 +41,26 @@ and for n=2 it give call to n=1 and n=0
 
  at end which hit base case that will return the case case n value and goes backtracking
 
- it end with nth term value 
+ it end with nth term value .
+ 
+
+ day 5 
+
+ today we did this question in which we enter the value of n and then it will print all the binary number of n lenght
+
+ void generateBinary(int index, int n, string &curr) {
+    if (index == n) {
+        cout << curr << endl;
+        return;
+    }
+
+    curr.push_back('0');
+    generateBinary(index + 1, n, curr);
+    curr.pop_back();
+
+    curr.push_back('1');
+    generateBinary(index + 1, n, curr);
+    curr.pop_back();
+}
+
+
