@@ -69,3 +69,7 @@ This program generates all binary strings of a fixed length using recursion and 
 The idea of backtracking comes from how choices are made and undone. First, the function adds `'0'` to the string and calls itself to fill the next position. When that recursive call finishes, the last character is removed using `pop_back()`. This step is important because it **undoes the previous choice**, allowing the function to try a different option. After removing `'0'`, the function adds `'1'` and again moves forward recursively. This same process repeats for every position in the string.
 
 By always making a choice, going deeper, and then undoing that choice, the function explores **all possible combinations** of `0` and `1`. Because each position has exactly two choices and the recursion stops exactly when the string length becomes `n`, every valid binary string of length `n` is generated once. In short, the program systematically tries every possible path, and backtracking ensures no choice affects the next one permanently.
+
+
+
+
