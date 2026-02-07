@@ -72,4 +72,6 @@ By always making a choice, going deeper, and then undoing that choice, the funct
 
 
 
+Day 6
 
+today we study about the binary search using the backtracking or we can say that recursion
