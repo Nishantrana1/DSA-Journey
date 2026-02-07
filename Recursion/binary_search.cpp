@@ -15,14 +15,12 @@ int binary(vector<int> arr,int tar, int n){
             else if(arr[mid]>tar){
                 end=mid-1;
             }
-            st++;
-            end--;
     }
 
 }
 
 int main(){
-    vector<int> arr={1,2,3,4,5,6,7,8,9};
-    int target=3;
+    vector<int> arr={1,3,5,7,9,15,21,25,39,55};
+    int target=39;
     cout<<binary(arr,target,arr.size());
 }
