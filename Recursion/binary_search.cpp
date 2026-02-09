@@ -57,9 +57,9 @@ public:
     }
 };
 
-int main(){{
+int main(){
     Solution s;
      vector<int> arr={1,3,5,7,9,15,21,25,39,55};
 int target=25;
     cout<<s.search(arr,target);
-}}
+}
