@@ -81,3 +81,5 @@ Day 7
 
 did binary search using recursion finaly code is complete and working
 now again solving problem 704 but this time with recursion.
+
+we need the help of a helper function becuase in leetcode problem we only have array and target as funcation parameter but we need start and end value so we create a helper function.
