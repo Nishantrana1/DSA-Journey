@@ -75,3 +75,9 @@ By always making a choice, going deeper, and then undoing that choice, the funct
 Day 6
 
 today we study about the binary search using the backtracking or we can say that recursion
+
+
+Day 7 
+
+did binary search using recursion finaly code is complete and working
+now again solving problem 704 but this time with recursion.
